@@ -1,0 +1,65 @@
+function mayor(){
+	//Moves buttons to mayor buttons
+	_root.story.text = "You walk into the mayors office.  He signals you over to an open chair and tells you to take a seat."
+	_root.buttons.gotoAndStop(27)
+}
+
+
+
+
+function mayortalk (badnits) {
+	//moves buttons to mayor talk buttons.
+	//Sets bandits button based on quest progression
+	
+  _root.buttons.gotoAndStop(28)
+	if(badnits == 1){
+	_root.buttons.banditbtn.gotoAndStop(2)
+	}
+	else if(bandits == 2){
+	_root.buttons.banditbtn.gotoAndStop(3)
+	}
+	else if(bandits == 4){
+	_root.buttons.banditbtn.gotoAndStop(4)
+	}
+}
+
+
+function mayorflirt(){
+	//Sets mayors buttons to flirt buttons
+	_root.buttons.gotoAndStop(29)
+}
+
+
+function mayorsex(scene, gender){
+	//Controls Sex Scene
+  
+	//1 = player gives mayor blowjob
+  //2 = player gets fucked by mayor
+  //3 = You fuck the mayor
+	if(scene ==1){
+		if (gender == 2){
+			_root.story.text = "You suck the mayors dick and materbate."
+		}
+		else if (gender ==1){
+			_root.story.text ="You suck the mayors dick and jerk off."
+		}
+		
+	}
+	else if (scene == 2){
+		if (gender == 2){
+			_root.story.text = "The mayor fucks you!"
+		}
+		else if (gender ==1){
+			_root.story.text ="The mayor fucks your ass"
+		}
+	}
+			
+	else if (scene == 3){
+		if (gender == 2){
+			_root.story.text = "You fuck the mayor in the ass with a strapon"
+		}
+		else if (gender ==1){
+			_root.story.text ="You fuck the mayor in the ass"
+		}
+	}
+}
