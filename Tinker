@@ -1,0 +1,23 @@
+var tinkerinn = 0
+//Determines if tinker is at the inn
+
+function tinkertalkinn (marker){
+//function that calls when you talk to tinker in the inn
+//if marker is 1 you decide to talk to tinker
+//if marker is 2 you ask about her
+//if marker is 3 you ask about her legs
+//if marker is 4 you flirt with her
+	if (marker ==1){
+		_root.story.text = 'You decide to talk to talk to the cute faun girl.  You tap her on the soldier.  She turns and gives you a quizical look.  "can I help you?"'
+		_root.buttons.gotoAndStop(40)
+	}
+	else if (marker ==2){
+		_root.story.text = 'You noitce that she looks like she is a cut above everyone else around here.  you decide to ask her what her deal is.  She chuckles for a second before answering "My name is Tinker.  As you probably noticed I am not from around here.  I came here from my moutain village to find a part I needed to repair a custom order I have been working on.  I'+"'"+'m heading back first thing tomorrow morning."'
+	}
+	else if (marker ==3){
+		_root.story.text = 'Your attension drifts to her metal legs.  after a few seconds Tinker notices you staring.\n\nShe sighs "I notice you stairing at my legs.  I lost them in a bad shop accident a few years ago.  It has been tough to adjust but these robotic legs are quite an improvement.  I can do things I could never do before!"'
+	}
+	else if (marker ==4){
+		_root.story.text = 'You decide to try to flirt with the cute faun girl.\n\n"so do those mechanical legs spread as well as real ones" you say with a grin.\n\n"why don'+"'"+'t you come back to my room and find out" she says with a devilish smile.'
+	}
+}
