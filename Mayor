@@ -1,3 +1,16 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
 function mayor(){
 	//Moves buttons to mayor buttons
 	_root.story.text = "You walk into the mayors office.  He signals you over to an open chair and tells you to take a seat."
