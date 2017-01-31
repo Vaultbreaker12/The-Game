@@ -1,0 +1,23 @@
+Salvador
+[Salvador is a man                                         ]
+[Salvador is a Canine                                      ]
+[Salvador is either friendly or Indeferent towards player  ]
+[Marker represents                                         ]
+[0 Bartender into]
+[1 Bartender talk]
+[2 bartender talk]
+[3 Drink with bartender]
+[4 blow bartender]
+
+
+function salvador (marker, friend) {
+
+	if(marker == 0){
+		_root.story.text = "Behind the bar-top stands a muscular figure, roughly 6’4"+'”'+ "covered in auburn fur. The neck beneath the wolf like maw showed a patch of white fur that lead down into his black shirt.  The toned arms lead down to clawed hands, which held a glass and a simple cloth being used to clean it.   He looked towards you with wise Amber eyes."+'  "What can I do for you?"'
+	}
+	
+  else if(marker ==1){
+		_root.story.text = "These bandits haven't been good for business, the city hasn't been lively for a while."
+	}
+
+}
