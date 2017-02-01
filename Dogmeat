@@ -1,0 +1,66 @@
+[Dogmeat is a feral dog]
+[Dogmeat is a male]
+[hp determines dogmeats position]
+[1 = in the wild]
+[2 = tamed]
+[3 = has dominated player]
+[Marker represents scene]
+[0 approach Dogmeat]
+[1 lose to dogmeat in the wild]
+[2 Tame dogmeat]
+[3 leave dogmeat]
+[4 play with dogmeat]
+[5 have sex with domeat]
+[6 dogmeat dominates you during heat]
+
+
+function dogmeat (marker, hp, gender){
+    if (marker ==0){
+      if(hp==2){
+        _root.story.text = "You approach your friendly doggy companion, he looks up at you with a happy smile."
+      }
+      else if(hp ==3){
+        _root.story.text = "You look up at your alpha dog, he looks at you judging your every motion."
+      }
+    }
+    else if(marker == 1)&&(gender ==1){
+      _root.story.text = "The wild german shepard mounts your ass"
+    }
+    else if(marker == 1)&&(gender ==2){
+      _root.story.text = "The wild german shepard mounts your pussy"
+    }
+    else if(marker == 2){
+      _root.story.text = "You decide to show the dog some compassion.  You use some of your first aid supplies to tend to his wounds.  He seems to be happy.  You give him a pat on the head and with a whistle he follows you back to your camp."
+    }
+      else if(marker == 3){
+      _root.story.text = "Deciding that this dog is to dangerous to take along you leave him to his fate. "
+    }
+    else if(marker ==4){
+          if(hp==2){
+              _root.story.text = "You decide to play with your dog.  You give him some ear scratches and belly rubs.  All this playing seems to be getting him excited, perhaps you can help him take care of his problem."
+          }
+          else if(hp ==3){
+             _root.story.text = "You alpha looks like he is waiting for some attention.  You give him some ear scratches and belly rubs.  He seems to be getting excited and judging by the look he is giving you he expects you to take care of it."
+          }
+    }
+
+    else if(marker = 5)&&(gender ==1){
+          if(hp==2){
+              _root.story.text = "You decide you want your little doggy friend to hump your ass.  So he does.  It was satisfying I guess"
+          }
+          else if(hp ==3){
+             _root.story.text = "You alpha looks you over and can tell you are craving to feel his doggy dick inside you again.  Wasting no time he jumps on your back, his weight forcing you down to all fours.  Before you have any time to adjust he is pounding into you like the bitch you are."
+          }   
+   }
+    else if(marker = 5)&&(gender ==2){
+          if(hp==2){
+              _root.story.text = "You decide you want your little doggy friend to hump your pussy.  So he does.  It was satisfying I guess"
+          }
+          else if(hp ==3){
+             _root.story.text = "You alpha looks you over and can tell you are craving to feel his doggy dick inside you again.  Wasting no time he jumps on your back, his weight forcing you down to all fours.  Before you have any time to adjust he is pounding into you like the bitch you are."
+          }  
+    }
+    else if(marker == 6){
+      _root.story.text = "Dogmeat senses your submissive nature and the burning need in your loins.  He was once your loayl servent eagar to follow you anywhere, but he now looks at you like a common bitch, and he intends to make you his.  Do you let him?"
+    }
+}
