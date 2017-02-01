@@ -34,6 +34,12 @@ function gwen (marker, hp, gender){
     else if (marker==2){
       _root.story.text =" 'Dominick escorts you up to the stairs and give a light knock on one of the doors.  The dainty cat girl you saw earlier answers.  "Hello daddy.  What's up"\n\n"Hello daughter, this is my freind coolguy.  He is an adventurer.  I know you yearn for a live outside these city walls.  I thought that my friend here could share some stories to state you wonder lust."  He gives you a non and then heads back down the stairs.\n\nGwendoline gives you a coy smile.  "Wow you actually convinced my dad to let you in.  I have to say I am impressed."
     }
+      else if (marker==3){
+      _root.story.text ="You decide to talk to the dainty cat girl.  You sit on the bed and look over to her.\n\nWhat do you want to talk about?"
+    }
+      else if (marker==4){
+      _root.story.text ='You tell Gwendoline that you would like to get to know her a little better.  "You want to hear about me?  Your life must be so much more exciting.\n\n"Grass is always greener" you say.  "some people might consider a pampered live to be a lot more exciting then fighting off death and rape at every turn."\n\n"I guess thats true she says.  Well I have been in good town as long as I remember.  My mother died before I can remember and my dad use to be some famous adventurer.  When I was born he decieded to settle down in *Goodtown* to raise me.  He aquired a lot of money in his adventures, so he made sure I was raised to the highest quality of life.  I've always had two body guards that watch me when ever I leave my house.  Even with the body guards I can never leave the city my father doesnt trust anyone!  
+    }
     
   
 
