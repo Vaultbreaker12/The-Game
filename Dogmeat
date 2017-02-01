@@ -30,7 +30,7 @@ function dogmeat (marker, hp, gender){
       _root.story.text = "The wild german shepard mounts your pussy"
     }
     else if(marker == 2){
-      _root.story.text = "You decide to show the dog some compassion.  You use some of your first aid supplies to tend to his wounds.  He seems to be happy.  You give him a pat on the head and with a whistle he follows you back to your camp."
+      _root.story.text = "You decide to show the dog some compassion.  You use some of your first aid supplies to tend to his wounds.  He seems to be happy.  You give him a pat on the head and with a whistle he follows you back to your camp.\n\nYou looking through the old buildings at the house you find one that is sutable and help him settle in.  After about an hour of cleaning the place looks some what presentable.  You toss you freind a bone."
     }
       else if(marker == 3){
       _root.story.text = "Deciding that this dog is to dangerous to take along you leave him to his fate. "
