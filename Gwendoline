@@ -1,0 +1,41 @@
+[Is a cat girl]
+[Is a female]
+[hp determines position: 0 is not descovered, 1 is at house, 2 is lover, 3 is bitch]
+[marker determines scene]
+[0 Find her walking the streets with her body guards]
+[1 Sneak into her house]
+[2 Approach her regularly]
+[3 talk to her]
+[4 talk to her about herself]
+[5 talk to her about her dad]
+[6 talk to her about escorts]
+[7 talk to her about the outside world]
+[8 Flirt with her]
+[9 Kiss her]
+[10 grope her]
+[11 give her oral]
+[12 recieve oral from her]
+[13 fuck her pussy]
+[14 fuck her ass]
+[15 dominate her]
+[16 pet play]
+[17 move her to the slave pens]
+
+function gwen (marker, hp, gender){
+    
+    if(marker == 0){
+      _root.story.text = 'Walking down the streets you notice a dainty cat girl walking down the street.  She is surrounded by two large tiger morphs each holding a large automatic gun.  The cat girl points in your direction and suddenly they are walking towards you.  They stop infront of you and the cat girl gives you a cute smile and introduces herself.\n\ n"Hello there my name is Gwendoline and these are my bodyguard *Tiger1* and *tiger2* My dad is a really important man and he never really lets me go anywhere with out them.  There is something about you that just seems different than everyone esle around here.  You should stop by my masnsion sometime. It might be hard to get, past my father, but im sure you cand find a way"  she says before skurrying off.'
+      _root.gwen hp =1
+    }
+    else if(marker ==1){
+       _root.story.text = 'You sneak around to the back of the house looking for gwendoline'+"'"+'s room.  After scoping out the place you find her room on the second floor.  You poke around and find a place to scale the building.  Finding some footing, you begin to climb until you reach her window giving it a light knock to get her attention.  She gives you a coy smile and comes to open the widow.\n\n"Climbing up the back to see me?  how exciting!"\n\n"Its nothing" you say as you shift into her room.\n\n"I am so glad you came to see me.  My life is do dull, I bet you get to do exciting stuff like this everyday." 
+
+    }
+    else if (marker==2){
+      _root.story.text =" 'Dominick escorts you up to the stairs and give a light knock on one of the doors.  The dainty cat girl you saw earlier answers.  "Hello daddy.  What's up"\n\n"Hello daughter, this is my freind coolguy.  He is an adventurer.  I know you yearn for a live outside these city walls.  I thought that my friend here could share some stories to state you wonder lust."  He gives you a non and then heads back down the stairs.\n\nGwendoline gives you a coy smile.  "Wow you actually convinced my dad to let you in.  I have to say I am impressed."
+    }
+    
+  
+
+
+}
