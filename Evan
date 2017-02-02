@@ -1,4 +1,51 @@
 [Is a lizard morph]
 [Is male]
 [Is a pure dom]
-[hp is a value between 0-10 and determines attitiude towards player] 0= player has not seen him, 1=Player has seen him bully the waitress, 2=Player has stood up for the waitress and is not submissive.  
+[hp is a value between 0-10 and determines attitiude towards player] 
+0= player has not seen him,
+1= Non sub/dom stood up to him and lost.
+2= Dominant player has stood up to him and lost.
+3= Submissive tried to stand up to him.
+4= non dom/sub stood up to him and won. 
+5= Dominant player stood up for waitress and won.
+6= is in training 
+10= is his bitch 
+20=have given 100% of yourself over to him
+99= He is bimbofied
+[Marker = scene]
+[0 = Approach him bullying waitress]
+[1 = Stick up for waitress]
+[2 = Try to talk to him]
+[3 = He dominates the player]
+[4 = He trains player]
+[5 = Fucks player in Resturant]
+[6 = Uses player as his pet]
+[7 = fucks player at his house]
+[8 = Player sumbits to him]
+[9 = He fucks player and waitress]
+[10 = Uses player and waitress as pets]
+[11 = Leaves player for public use]
+[12 = Lets waitress fuck player]
+[13 = bad end/Player ends up as waitress]
+[14 = Fuck him in the ass]
+[15 = Bimbofy him]
+
+
+function Evan(marker,hp,gender){
+  if(marker == 1 && hp ==0){
+    _root.story.text = "You walk up to the rude Lizard morph and the waitress.  He is now visably groping her and making while calling her a slut.  She weakly protest, but he pays her no mind as he slips a hand down her pants.  He notices you staring and says "You looking for a good fucking too?"
+  }
+  else if(marker == 1 && hp < 4){
+    _root.story.text = "You walk up to evan as he is playing with jamie again.  He gives you a evil smile.  "Awww the little slut just can't stay away."  He says pulling his hand out from under Jamies panties.  "If you are gonna be a proper little bitch for me youll need some good training.
+  }
+  else if(marker == 1 && hp < 4){
+    _root.story.text = "You walk up to evan.  He is sitting alone at the table.  He sees you approaching.  "What do you want now?"
+  }
+  else if(marker == 1 && hp < 4){
+    _root.story.text = "You walk up to evan.  He is sitting alone at the table.  He sees you approaching.  "What do you want now?"
+  }
+  else if(marker == 1 && hp < 10){
+    _root.story.text = "You walk up to evan as he is playing with Jamie who is now not weairing anything other then a short skirt that doesnt hide anything.   He gives you a knowing glance as and you imediatly strip out of your clothes and drop to his heels.  "What a good little pet.  I think its time we continue your training 
+  }
+  
+}
