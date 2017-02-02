@@ -25,7 +25,7 @@
 [20 = try to steal her legs]
 [21 = move her to settlement]
 
-function tinkertalkinn (marker, hp, gender ){
+function tinker (marker, hp, gender ){
 
 	if (marker ==1){
 		_root.story.text = 'You decide to talk to talk to the cute faun girl.  You tap her on the soldier.  She turns and gives you a quizical look.  "can I help you?"'
