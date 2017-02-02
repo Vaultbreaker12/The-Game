@@ -16,7 +16,7 @@
 [0 = Approach him bullying waitress]
 [1 = Stick up for waitress]
 [2 = Try to talk to him]
-[3 = He dominates the player]
+[3 = He dominates the player after loss]
 [4 = He trains player]
 [5 = Fucks player in Resturant]
 [6 = Uses player as his pet]
@@ -32,20 +32,48 @@
 
 
 function Evan(marker,hp,gender){
-  if(marker == 1 && hp ==0){
-    _root.story.text = "You walk up to the rude Lizard morph and the waitress.  He is now visably groping her and making while calling her a slut.  She weakly protest, but he pays her no mind as he slips a hand down her pants.  He notices you staring and says "You looking for a good fucking too?"
+  if(marker == 0 && hp ==0){
+    _root.story.text = 'You walk up to the rude Lizard morph and the waitress.  He is now visably groping her and making while calling her a slut.  She weakly protest, but he pays her no mind as he slips a hand down her pants.  He notices you staring and says "You looking for a good fucking too?"'
   }
-  else if(marker == 1 && hp < 4){
-    _root.story.text = "You walk up to evan as he is playing with jamie again.  He gives you a evil smile.  "Awww the little slut just can't stay away."  He says pulling his hand out from under Jamies panties.  "If you are gonna be a proper little bitch for me youll need some good training.
+  else if(marker == 0 && hp < 4){
+    _root.story.text = 'You walk up to evan as he is playing with jamie again.  He gives you a evil smile.  "Awww the little slut just can't stay away."  He says pulling his hand out from under Jamies panties.  "If you are gonna be a proper little bitch for me youll need some good training.'
   }
-  else if(marker == 1 && hp < 4){
-    _root.story.text = "You walk up to evan.  He is sitting alone at the table.  He sees you approaching.  "What do you want now?"
+  else if(marker == 0 && hp < 4){
+    _root.story.text = 'You walk up to evan.  He is sitting alone at the table.  He sees you approaching.  "What do you want now?"'
   }
-  else if(marker == 1 && hp < 4){
-    _root.story.text = "You walk up to evan.  He is sitting alone at the table.  He sees you approaching.  "What do you want now?"
+  else if(marker == 0 && hp < 6){
+    _root.story.text = 'You walk up to evan.  He is sitting alone at the table.  He sees you approaching.  "What do you want now?"  He says his eyes looking towards the ground.'
   }
-  else if(marker == 1 && hp < 10){
-    _root.story.text = "You walk up to evan as he is playing with Jamie who is now not weairing anything other then a short skirt that doesnt hide anything.   He gives you a knowing glance as and you imediatly strip out of your clothes and drop to his heels.  "What a good little pet.  I think its time we continue your training 
+  else if(marker == 0 && hp < 10){
+    _root.story.text = 'You walk up to evan as he is playing with Jamie who is now not weairing anything other then a short skirt that doesnt hide anything.   He gives you a knowing glance as and you imediatly strip out of your clothes and drop to his heels.  "What a good little pet.  I think its time we continue your training '
+  }
+  else if(marker ==1 && gender ==1){
+    if (_root.submissive ==0){
+      _root.story.text = 'You tell the lizard man that you dont like the way he is treating the waitress and he better stop right away.  The waitress looks up at you with a happy beam before he pushes her back and glares at you angirly.\n\n"I dont think so buddy.  Ill do what ever I want with this bitch and I think Ill make you a good little bitch for me too."\n\nLooks like he intends to fight you.' 
+      }
+     else if (_root.submissive ==1){
+      _root.story.text = 'You tell the lizard man that you dont like the way he is treating the waitress and he better stop right away.  The waitress looks up at you with a happy beam before he pushes her back and laughs at you\n\n"I dont think so buddy.  Ill do what ever I want with this bitch and you look like you would be a good little bitch for me too.\n\nYou hate to admit it, but his words are making you rock hard.  Something in your submissive nature just makes you want to give into to his commands.\n\n"Haha looks like I was right.  You are already hard just from being talked to like the slut you are."He continues laughing at you.  "why dont you show everyone in this resturant how much of a slut you are."  He says as he pulls down his pants.  His large red dick stands proud.\n\n"sit on it he commands.\n\nHere you are trying to save the waitress, but your need to be dominated has become so powerfull you obey his command with out question.  In a matter of seconds your tight ass hole is being streached wide by his impressive member. \n\n"You werent really trying to "save" her were you.  You just wanted this hot cock all to your self didnt you, you little slut."  He slaps down on your ass hard.  All you can manage is a moan as you contiune riding is fat cock infront of everyone in the resturnat.  Finally he blows his load right in your ass. ounce after ounce of thick spunk flow in to your abused ass.  When he is done he pushes you off to the ground and looks over to the waitress.  She has a horrified facical expression, but he doesnt seem to care.  He grabs her by the hair and shoves hes cock into her face.\n\n"Clean it" he demands.  She lets out a sigh then takes his reptile cock into her mouth.  She winces at the taste of his cock mixed with your ass, which earns her a chuckle from the Reptile.  He looks back over to you.\n\n"Yeah you two are going to make great bitches.  Why dont you come back and we can start your training."'   
+      }
+  }
+   else if(marker ==1 && gender ==2){
+    if (_root.submissive ==0){
+      _root.story.text = 'You tell the lizard man that you dont like the way he is treating the waitress and he better stop right away.  The waitress looks up at you with a happy beam before he pushes her back and glares at you angirly.\n\n"I dont think so slut.  Ill do what ever I want with this bitch and I think Ill make you a good little bitch for me too."\n\nLooks like he intends to fight you.' 
+      }
+     else if (_root.submissive ==2){
+      _root.story.text = 'You tell the lizard man that you dont like the way he is treating the waitress and he better stop right away.  The waitress looks up at you with a happy beam before he pushes her back and laughs at you\n\n"I dont think so slut.  Ill do what ever I want with this bitch and you look like you would be a good little bitch for me too.\n\nYou hate to admit it, but his words are making you soaking wet, something that he notices immdiatley.  Something in your submissive nature just makes you want to give into to his commands.\n\n"Haha looks like I was right.  You are already soaking just from being talked to like the slut you are."He continues laughing at you.  "why dont you show everyone in this resturant how much of a slut you are."  He says as he pulls down his pants.  His large red dick stands proud.\n\n"sit on it he commands.\n\nHere you are trying to save the waitress, but your need to be dominated has become so powerfull you obey his command with out question.  In a matter of seconds your tight puddy is being streached wide by his impressive member. \n\n"You werent really trying to "save" her were you.  You just wanted this hot cock all to your self didnt you, you little slut."  He slaps down on your ass hard.  All you can manage is a moan as you contiune riding is fat cock infront of everyone in the resturnat.  Finally he blows his load right in your pussy.  ounce after ounce of thick spunk flow in to your abused pussy.  When he is done he pushes you off to the ground and looks over to the waitress.  She has a horrified facical expression, but he doesnt seem to care.  He grabs her by the hair and shoves hes cock into her face.\n\n"Clean it" he demands.  She lets out a sigh then takes his reptile cock into her mouth.  She winces at the taste of his cock mixed with your pussy juices, which earns her a chuckle from the Reptile.  He looks back over to you.\n\n"Yeah you two are going to make great bitches.  Why dont you come back and we can start your training."'   
+      }
   }
   
-}
+  else if (marker == 2 && hp <4){
+    _root.story.text = 'You ask evan if you could speak to him for a moment.\n\n"Did I give you permission to speak?" he growls at you.\n\nYou nod your head no. \n\n"I didn't think so now shut your mouth before I find something to stuff in it."'
+  }
+  else if (marker == 2 && hp <6){
+    _root.story.text = 'You tell Evan you would like to speak with him.\n\n"There isnt really much to talk about.  Ill leave her alone, other than that I have nothing to say to you."'
+  }
+  else if (marker == 2 && hp >5){
+    _root.story.text = 'You ask evan if you could speak to him for a moment.\n\n"Did I give you permission to speak?" he growls at you.\n\nYou nod your head no. \n\n"I didn't think so now shut your mouth before I find something to stuff in it."'
+  }
+  else if (marker ==3)
+      if(gender==1){
+          _root.story.text = "Did you really think you could beat me you pethetic excuse for a man.  I'm gonna rape that ass so hard that you are gonna wish you were a woman when I am done with you.  He waste no time bending you over and pulling down your pants.  You feel is large reptile dick poking at your tight asshole.  He holds it there for what feels like an eternity before you feel it pull back.  Maybe he isnt gonna go through with it?   
+}   
