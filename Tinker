@@ -1,6 +1,6 @@
 [Is a Sheep girl]
 [Is a female]
-[hp determines position] 0 = undescovered, 1 = trundle inn, 2 = her workshop sex before, 3 her workshop not sex before, 4 = settlement]
+[hp determines position] 0 = undescovered, 1 = trundle inn, 2 = her workshop sex before, 3 her workshop no sex before, 4 = settlement]
 [Marker determines scene]
 [1 = approach tinker at inn]
 [2 = ask her about herself]
