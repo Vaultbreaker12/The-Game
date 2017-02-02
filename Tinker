@@ -1,12 +1,31 @@
-var tinkerinn = 0
-//Determines if tinker is at the inn
+[Is a Sheep girl]
+[Is a female]
+[hp determines position] 0 = undescovered, 1 = trundle inn, 2 = her workshop sex before, 3 her workshop not sex before, 4 = settlement]
+[Marker determines scene]
+[1 = approach tinker at inn]
+[2 = ask her about herself]
+[3 = ask her about her legs]
+[4 = flirt with her]
+[5 = Approach her at her shop]
+[6 = Start talk]
+[7 = ask about her shop]
+[8 = ask about locals]
+[9 = ask about area]
+[10 = ask about enhancements]
+[11 = buy stuff from her store]
+[12 = sell stuff to her] 
+[13 = Try to sex her]
+[14 = fuck her pussy from behind]
+[15 = fuck her ass from behind]
+[16 = have her ride you]
+[17 = have her fuck you with a roboitc strap on]
+[18 = make passionate love]
+[19 = missing legs sceene]
+[20 = try to steal her legs]
 
-function tinkertalkinn (marker){
-//function that calls when you talk to tinker in the inn
-//if marker is 1 you decide to talk to tinker
-//if marker is 2 you ask about her
-//if marker is 3 you ask about her legs
-//if marker is 4 you flirt with her
+
+function tinkertalkinn (marker, hp, gender ){
+
 	if (marker ==1){
 		_root.story.text = 'You decide to talk to talk to the cute faun girl.  You tap her on the soldier.  She turns and gives you a quizical look.  "can I help you?"'
 		_root.buttons.gotoAndStop(40)
@@ -19,5 +38,76 @@ function tinkertalkinn (marker){
 	}
 	else if (marker ==4){
 		_root.story.text = 'You decide to try to flirt with the cute faun girl.\n\n"so do those mechanical legs spread as well as real ones" you say with a grin.\n\n"why don'+"'"+'t you come back to my room and find out" she says with a devilish smile.'
+	}
+	else if (marker == 5){
+		if(hp == 2){
+		_root.story.text = 'You open the door to tinkers shop.  It is messy, but impressive. Robotic parts lay on the counters and are hung from the walls.  Tinker looks at you and says "Hi player!.  What are you doing here?"
+		}
+		else if(hp == 3){
+		_root.story.text = 'You open the door to the shop.  It is messy, but impresssive.  Robotic parts lay on the counters and are hung from the walls.  "The cute sheep girl at the counter turns her attention to you and says "Hi I am tinker and this is my shop.  Please feel free to look around and ask me any questions you mihgt have!"'
+		_root.tinkerhp = 2
+		}
+	}
+	else if (marker ==6){
+		_root.story.text = 'You go up to tinker and ask her if she's got a minute.\n\n"Sure what's up?" she says\n\nWhat do you want to talk to her about?'
+	}
+	else if (marker == 7){
+		_root.story.text = 'You decided to ask her about her shop.  It is unlike anything you ever seen.\n\n"This shop is my pride and joy.  Since I was a little girl I had always taken a liking to mechanics.  Legs, guns, robots, you name it I've worked on it.  Turns out a lot of people will pay good money for this stuff.  My village really counts on me for creating things to help them move around the moutains.  In turn I get a pretty good amount of money and get to meet some really exciting people so its a win win!"
+	}
+	else if (marker ==8){
+		_root.story.text = 'You decide to ask her about the local vilagers.  They seeem to be living happily despite the struggle of the area. \n\n"Yeah the villagers here area all very hard working.  Life hear is difficult, but we all pitch in to do what we can to get by.  Some of the people might seem a little reclusive, but we have tried to shelter ourself from the harshness from the outside world.  I'm sure they will open up if you get to know them a little better."'
+	}
+	else if (marker ==9){
+		_root.story.text = 'You decide to ask about the surrounding area.\n\n"These moutains can be rough, but that is exactly why we chose this area for our village.  The terrain is difficult to navigate through and the vicious predators make it hard for outsiders to reach us."  She chuckels "Of course that didnt stop you.  Some people might not like the difficult life that comes with moutain living, but I do what I can to make things easier for the people.  It might not seem like much to an outsider, but this place is like a little slice of heave to me."'
+	}
+	else if (marker ==10){
+		_root.story.text = 'You decide to ask her about all the enhancements shes made in the city.\n\n"Most of the elevators you see in the town are my design.  I also desgnened the tracks that we use to transfer materials up and down the moutains.  Aside from that I have designed thse bad boys" she points down to her legs.  "and most of the other cybernetic body parts you see people wearing.  Accidents are fairly common here.  I also designed this." she says with a mistivious glare as she pulls out something from her desk.  She is holding a large mechanical strap on that wouldfill out the spot between her legs.  "We could try it out if youd like"'		
+	}
+	else if (marker ==11){
+		_root.story.text = 'You ask her what she has for sale.\n\n"Here take a look."'
+	}
+	else if (marker ==12){
+		_root.story.text = 'You ask her if she is willing to buy some things.\n\n"I'm always looking for stuff, saves me from having to make trips outside of the village.  Anything I dont need I can probably turn to scrap."'
+	}
+	else if (marker ==13){
+		_root.story.text = 'You give the girl a playful smile and ask her if she would be interested in some fun. \n\nShe smiles back at you"What did you have in mind?"
+	}
+	else if (marker ==14 && gender ==1){
+		_root.story.text = 'You tell her that you want to bend her over the counter and pound her pussy until even her mechanical legs cant stand.  She chuckles.  "Quite bold of you, but I like it.  Just let me close up shop and we can see what you are really made of."  She walks up to the door and gives it a lock.  She pulls down the shade and saunters over back to the coutner giving you a sheepish grin as she bends over seductivly, dropping her shorts to hear ankles.  "Now lets see if you can back up all that big talk." \n\nYou line yourself up behind her and fuck her like there is no tomorrow.  Backing up all your talk.\n\n"Well that was quite a bit of fun after all.  Maybe next time ill show you what I can do."   
+		
+	}
+	else if (marker ==14 && gender ==2){
+		_root.story.text = 'You tell her that you want to bend her over the counter and pound her pussy until even her mechanical legs cant stand.  She chuckles.  "Quite bold of you, but I like it.  Just let me close up shop and we can see what you are really made of."  She walks up to the door and gives it a lock.  She pulls down the shade and saunters over back to the coutner giving you a sheepish grin as she bends over seductivly, dropping her shorts to hear ankles.  "Now lets see if you can back up all that big talk." \n\nYou line yourself up behind her and fuck her with your strapon like there is no tomorrow.  Backing up all your talk.\n\n"Well that was quite a bit of fun after all.  Maybe next time ill show you what I can do."   
+		
+	}
+	else if (marker ==15 && gender ==1){
+		_root.story.text = 'You tell her that you want to bend her over the counter and pound her ass so hard that she wont be able to stand for a week.  She chuckles.  "Quite bold of you, but I like it.  Just let me close up shop and we can see what you are really made of."  She walks up to the door and gives it a lock.  She pulls down the shade and saunters over back to the coutner giving you a sheepish grin as she bends over seductivly, dropping her shorts to hear ankles.  "Now lets see if you can back up all that big talk." \n\nYou line yourself up behind her and fuck her like there is no tomorrow.  Backing up all your talk.\n\n"Well that was quite a bit of fun after all.  Maybe next time ill show you what I can do."   
+		
+	}
+	else if (marker ==15 && gender ==2){
+		_root.story.text = 'You tell her that you want to bend her over the counter and pound her ass so hard that she wont be able to stand for a week.  "Quite bold of you, but I like it.  Just let me close up shop and we can see what you are really made of."  She walks up to the door and gives it a lock.  She pulls down the shade and saunters over back to the coutner giving you a sheepish grin as she bends over seductivly, dropping her shorts to hear ankles.  "Now lets see if you can back up all that big talk." \n\nYou line yourself up behind her and fuck her with your strapon like there is no tomorrow.  Backing up all your talk.\n\n"Well that was quite a bit of fun after all.  Maybe next time ill show you what I can do."   
+		
+	}
+	else if (marker ==16 && gender ==1){
+		_root.story.text ='You tell her that you would like to see her bounce up and down on your cock.\n\nShe grins.  "Now that does sount like fun.  With these legs I can give you the ride of your life.  She walks to the door locking it and pulling down the shades.  She walks back over to you and pulls down your pants and pushes you down to your back.  She alignes her self ontop of you and slowly slides your cock inside of her.  She then fucks you with wild abandoned. living up to her promose'	
+	}
+	else if (marker ==16 && gender ==2){
+		_root.story.text ='You tell her that you would like to see her bounce up and down on your strap on.\n\nShe grins.  "Now that does sount like fun.  With these legs I can give you the ride of your life.  She walks to the door locking it and pulling down the shades.  She walks back over to you and pulls down your pants and pushes you down to your back.  She alignes her self ontop of you and slowly slides your strapon inside of her.  She then fucks you with wild abandoned. living up to her promose'	
+	}
+	else if (marker ==17 && gender ==1){
+		if(_root.submissive ==0){
+			_root.story.text = 'You tell her that you would love to see how that cutom strapon feels pounding your ass. \n\nShe reaches into her her desk and pulls out her strapon fastening it to her robotic legs.  She walks up to the door and locks it and pulls down the shades.  "This will be a lot of fun" she says with a grin.  She then with surprising strength she throws you over the desk and bends you over.  She then rails your ass with the strap on for what feels like hours.'
+		}
+		if(_root.submissive ==1){
+			_root.story.text = 'You tell her that you would love to see how that cutom strapon feels pounding your ass.\n\nShe can hear the needieness in your voice and waste no time at all.  "A slutty boy like you doesnt care if anyone walks in right" she says as she bends you over your counter pulling down your pant's then giving your ass a hard slap.  You shake your head no, The little sheep girl can be surprisingly forceful when she wants to.  She slams her strapon into your tight asshole making you gasp in both pain and pleasure.  She fucks you for what feels like hours.  after a while a customer comes in.  He seems surprised by the situation, but does his best to shop normally.  When it comes time to check out Tinker pulls out of you to help the man leaving you gaping wide.  She finishes the transaction gives the man a smile then rougly slams her strapon back into you.  She continues fucking you until you collaps into a pile.\n\n After a few minutes you finally collect enough strength to recover you pull your pants back up and look over to tinker.  "That was fun!" she says.  "Maybe next time you can be on top."'  
+		}
+	}
+	else if (marker ==17 && gender ==2){
+		if(_root.submissive ==0){
+			_root.story.text = 'You tell her that you would love to see how that custom strapon feels pounding your pussy. \n\nShe reaches into her her desk and pulls out her strapon fastening it to her robotic legs.  She walks up to the door and locks it and pulls down the shades.  "This will be a lot of fun" she says with a grin.  She then with surprising strength she throws you over the desk and bends you over.  She then rails your ass with the strap on for what feels like hours.'
+		}
+		if(_root.submissive ==1){
+			_root.story.text = 'You tell her that you would love to see how that custom strapon feels pounding your pussy.\n\nShe can hear the needieness in your voice and waste no time at all.  "A slutty girl like you doesnt care if anyone walks in right" she says as she bends you over your counter pulling down your pant's then giving your ass a hard slap.  You shake your head no, The little sheep girl can be surprisingly forceful when she wants to.  She slams her strapon into your needy pussy making you gasp in pleasure.  She fucks you for what feels like hours.  After a while a customer comes in.  He seems surprised by the situation, but does his best to shop normally.  When it comes time to check out Tinker pulls out of you to help the man leaving you gaping wide.  She finishes the transaction, gives the man a smile then rougly slams her strapon back into you.  She continues fucking you until you collaps into a pile.\n\n After a few minutes you finally collect enough strength to recover you pull your pants back up and look over to tinker.  "That was fun!" she says.  "Maybe next time you can be on top."'  
+		}
 	}
 }
