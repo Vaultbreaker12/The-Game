@@ -38,13 +38,13 @@ function Evan(marker,hp,gender){
   else if(marker == 0 && hp < 4){
     _root.story.text = 'You walk up to evan as he is playing with jamie again.  He gives you a evil smile.  "Awww the little slut just can't stay away."  He says pulling his hand out from under Jamies panties.  "If you are gonna be a proper little bitch for me youll need some good training.'
   }
-  else if(marker == 0 && hp < 4){
+  else if(marker == 0 && hp== 4){
     _root.story.text = 'You walk up to evan.  He is sitting alone at the table.  He sees you approaching.  "What do you want now?"'
   }
-  else if(marker == 0 && hp < 6){
+  else if(marker == 0 && hp == 5){
     _root.story.text = 'You walk up to evan.  He is sitting alone at the table.  He sees you approaching.  "What do you want now?"  He says his eyes looking towards the ground.'
   }
-  else if(marker == 0 && hp < 10){
+  else if(marker == 0 && hp > 5){
     _root.story.text = 'You walk up to evan as he is playing with Jamie who is now not weairing anything other then a short skirt that doesnt hide anything.   He gives you a knowing glance as and you imediatly strip out of your clothes and drop to his heels.  "What a good little pet.  I think its time we continue your training '
   }
   else if(marker ==1 && gender ==1){
@@ -59,7 +59,7 @@ function Evan(marker,hp,gender){
     if (_root.submissive ==0){
       _root.story.text = 'You tell the lizard man that you dont like the way he is treating the waitress and he better stop right away.  The waitress looks up at you with a happy beam before he pushes her back and glares at you angirly.\n\n"I dont think so slut.  Ill do what ever I want with this bitch and I think Ill make you a good little bitch for me too."\n\nLooks like he intends to fight you.' 
       }
-     else if (_root.submissive ==2){
+     else if (_root.submissive ==1){
       _root.story.text = 'You tell the lizard man that you dont like the way he is treating the waitress and he better stop right away.  The waitress looks up at you with a happy beam before he pushes her back and laughs at you\n\n"I dont think so slut.  Ill do what ever I want with this bitch and you look like you would be a good little bitch for me too.\n\nYou hate to admit it, but his words are making you soaking wet, something that he notices immdiatley.  Something in your submissive nature just makes you want to give into to his commands.\n\n"Haha looks like I was right.  You are already soaking just from being talked to like the slut you are."He continues laughing at you.  "why dont you show everyone in this resturant how much of a slut you are."  He says as he pulls down his pants.  His large red dick stands proud.\n\n"sit on it he commands.\n\nHere you are trying to save the waitress, but your need to be dominated has become so powerfull you obey his command with out question.  In a matter of seconds your tight puddy is being streached wide by his impressive member. \n\n"You werent really trying to "save" her were you.  You just wanted this hot cock all to your self didnt you, you little slut."  He slaps down on your ass hard.  All you can manage is a moan as you contiune riding is fat cock infront of everyone in the resturnat.  Finally he blows his load right in your pussy.  ounce after ounce of thick spunk flow in to your abused pussy.  When he is done he pushes you off to the ground and looks over to the waitress.  She has a horrified facical expression, but he doesnt seem to care.  He grabs her by the hair and shoves hes cock into her face.\n\n"Clean it" he demands.  She lets out a sigh then takes his reptile cock into her mouth.  She winces at the taste of his cock mixed with your pussy juices, which earns her a chuckle from the Reptile.  He looks back over to you.\n\n"Yeah you two are going to make great bitches.  Why dont you come back and we can start your training."'   
       }
   }
@@ -75,5 +75,112 @@ function Evan(marker,hp,gender){
   }
   else if (marker ==3)
       if(gender==1){
-          _root.story.text = "Did you really think you could beat me you pethetic excuse for a man.  I'm gonna rape that ass so hard that you are gonna wish you were a woman when I am done with you.  He waste no time bending you over and pulling down your pants.  You feel is large reptile dick poking at your tight asshole.  He holds it there for what feels like an eternity before you feel it pull back.  Maybe he isnt gonna go through with it?   
-}   
+          _root.story.text = '"Did you really think you could beat me you pethetic excuse for a man.  I'm gonna rape that ass so hard that you are gonna wish you were a woman when I am done with you.  He waste no time bending you over and pulling down your pants.  You feel is large reptile dick poking at your tight asshole.  He holds it there for what feels like an eternity before you feel it pull back.  Maybe he isnt gonna go through with it? WRONG!!! he slams the entire length of his dick into your tight ass hole botteming out after 9 inches.  He pounds your ass for what feels like hours before blowing his hot load.  He pushes you off his dick and laughs.\n\nHis attention is turned to the waitress who now has a horrified expression on her face.  He grabs her by the hair and shoves his dick into her face.  "clean it" he demands.  She lets out a sigh and and wraps her lips around his dripping cock.  She winces at the taste of his cock mixed with your ass, but she continues sucking.  He looks back over at you."Not bad slut.  Come back again and we can train you to be an even better Bitch."'  
+      }
+      else if(gender ==2){
+         _root.story.text '"Did you really think you could beat me you stupid slut."  He says as he grabs a handful of your ass.  He bends you over the table and yanks down your pants. "You probably just wanted to fight me so I would be extra rough with you.  Well guess what it worked"  He slaps your ass hard causing you to gasp out loud from shock.  He sticks two fingers into your pussy then begins to thrust them in and out rapidly.  You can't help the fact that you are starting to get wet.  "He laughs not so tough now are you."  he slaps accross your ass again with his other hand.  All you can do is whine as he continues is brutal assult.  He pulls his fingers out of your pussy and presents them to you.  "Taste yourself" he orders.  You want nothing more than to kill him, but he beat you fair and square and you are in no position to argue.  You suck his fingers obediently while he laughs over you.  He seems to be tiered of forplay and with one swift motion he is behind you ready to pump your pussy full of his cock.  He slams it in to the hilt with one forceful push.  You cry out in surprise as he ravishes your needy body.  He slams in and out of while the whole resturant watches cheering him on.  He finally climaxes launching wave after wave of thick reptile cum into your womb.  When he is finished he throws you to the grown and looks over to the waitress.  She has a horrifies expression on her face, but it doesnt seem to phase him.  He grabs her by the hair and shoves his cock to her lips.  "Clean it" He commands.  She reluctantly takes his cock into her lips wincing at the taste of his cock mixed with your love jusices.  He turns his attention back to you.  "Not bad slut.  Now that you have had a taste its only a matter of time before you come back for more.  Why dont you come back and well give you some proper training."' 
+      }
+  } 
+  else if (marker ==4 && gender ==1){
+      if(hp ==6){
+      _root.story.text =As much as you hate to admit you cant stop thinking about the way Evan roughly took your ass.  Maybe being his bitch wouldnt be such a bad thing.  You meekly walk up to him avoidng eye contact.  A wide smile adorns his face as he notices you approaching.\n\n"Well well well, have you finally  admited to yourself that you are ready to be a proper pet?"  He says as he pulls you closer.\n\nWith shame in your voice and burning hot embarassment you tell him that you would like some more sex.  "He laughs loudly and says "thats a good boy, but having sex with me is a privilage that is reserved for my bitches.  I think you are gonna need some proper training."\n\nYou freeze up in anticipation what could he possibly have in mind.  Does he really expect you to degrade yourself infront of all these people?  The though of it is getting you so aroused and all you can manage to do is nod obdeiently.\n\n"Well then the first step in your training is to admit to everyone that you are nothing but a little slut and ou want to take your proper place at my side as my bitch."  He slides a chiar over to you, expecting you to stand on it to make your announcement.  "Say it loud and say it Proud." he says heping you up to the chair."  
+      }
+      else if(hp ==7){
+      
+      }
+      else i(hp ==8){
+      
+      }
+      else if(hp==9){
+      
+      }
+    }
+    else if (marker ==4 && gender ==2){
+      if(hp ==6){
+      _root.story.text =As much as you hate to admit you cant stop thinking about the way Evan roughly took your ass.  Maybe being his bitch wouldnt be such a bad thing.  You meekly walk up to him avoidng eye contact.  A wide smile adorns his face as he notices you approaching.\n\n"Well well well, have you finally  admited to yourself that you are ready to be a proper pet?"  He says as he pulls you closer.\n\nWith shame in your voice and burning hot embarassment you tell him that you would like some more sex.  "He laughs loudly and says "thats a good boy, but having sex with me is a privilage that is reserved for my bitches.  I think you are gonna need some proper training."\n\nYou freeze up in anticipation what could he possibly have in mind.  Does he really expect you to degrade yourself infront of all these people?  The though of it is getting you so aroused and all you can manage to do is nod obdeiently.\n\n"Well then the first step in your training is to admit to everyone that you are nothing but a little slut and ou want to take your proper place at my side as my bitch."  He slides a chiar over to you, expecting you to stand on it to make your announcement.  "Say it loud and say it Proud." he says heping you up to the chair."  
+      }
+      else if(hp ==7){
+      
+      }
+      else i(hp ==8){
+      
+      }
+      else if(hp==9){
+      
+      }
+    }
+    else if (marker ==5 && gender ==1){
+    
+    }
+    else if (marker ==5 && gender ==2){
+    
+    }
+    else if (marker ==6 && gender ==1){
+    
+    }
+    else if (marker ==6 && gender ==2){
+    
+    }
+    else if (marker ==7 && gender ==1){
+    
+    }
+    else if (marker ==7 && gender ==2){
+    
+    }
+    else if (marker ==8 && gender ==1){
+        if(_root.submissive ==p){
+        
+        }
+        else if(_root.submissive ==1){
+        
+        }
+    
+    }
+    else if (marker ==8 && gender ==2){
+        if(_root.submissive ==p){
+        
+        }
+        else if(_root.submissive ==1){
+        
+        }
+    }
+    else if (marker ==9 && gender ==1){
+    
+    }
+    else if (marker ==9 && gender ==2){
+    
+    }
+    else if (marker ==10 && gender ==1){
+    
+    }
+    else if (marker ==10 && gender ==2){
+    
+    }
+    else if (marker ==11 && gender ==1){
+    
+    }
+    else if (marker ==11 && gender ==2){
+    
+    }
+     else if (marker ==12 && gender ==1){
+    
+    }
+    else if (marker ==12 && gender ==2){
+    
+    }
+    else if (marker ==13 && gender ==1){
+    
+    }
+    else if (marker ==13 && gender ==2){
+    
+    }
+     else if (marker ==14 && gender ==1){
+    
+    }
+    else if (marker ==14 && gender ==2){
+    
+    }
+    else if (marker ==15){
+    
+    }
+  }
