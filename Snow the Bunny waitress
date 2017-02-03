@@ -1,0 +1,49 @@
+[Is a bunny girl]
+[Is a female]
+[is forced to be submissive]
+[is actually a closet dom]
+[Can grow a dick]
+[HP represents her status]
+[0 = PLayer has not met her]
+[1 = player has faught off Bishop]
+[2 = Player has failed to fight off Bishop]
+[3 = Snow is in training]
+[4 = snow is Bishop's bitch]
+[5 = snow is your friend]
+[6 = snow is your lover]
+[7 = snow is your bitch]
+[8 = snow is your master]
+[9 = snow is at settlement as Bitch]
+[10 = snow is at settlement with Dick]
+[11 = snow is at settlement as Bishop's Keeper]
+[12 = snow is at settlement as yours and Bishop's Keeper]
+[Marker Represents scene]
+[0 = approach her]
+[1 = Engage talking to her]
+[2 = talk to her about bully]
+[3 = talk to her about herself]
+[4 = talk to her about the returaunt]
+[5 = talk to her about the city]
+[6 = talk to her about growing dick]
+[7 = ask her about having sex]
+[8 = let her fuck you]
+[9 = get oral sex]
+[10 = give oral sex]
+[11 = fuck her pussy]
+[12 = fuck her ass]
+[13 = She doms you]
+[14 = She doms you and Bishop]
+[15 = she doms Bishop]
+[16 = She beats Bishop in fight]
+[17 = degrades Bishop]
+[18 = degrades you]
+
+function snow (marker,hp,gender,Bishop,confidence){
+    
+    if(maker ==0){
+          if(hp==1){
+              _root.story.text = "You walk up to the waitress that you saved.  She seems to be doing much better without Bishop bothering her.  She sees you coming and smiles.  "Hey its you!!!  it's so great to see you again. 
+          }
+    }
+
+}
