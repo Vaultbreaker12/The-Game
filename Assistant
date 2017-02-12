@@ -1,0 +1,34 @@
+[Starts as male]
+[Starts as human]
+[Can reductantly be spliced into a Male Wolf or a Female cow]
+[Hp = position]
+[0 = human male]
+[1 = female cow]
+[2 = male wolf]
+[marker = scene]
+[0 = approach him]
+[1 = engage talking to him]
+[2 = talk to him about himself]
+[3 = Talk to him about lab]
+[4 = flirt with him]
+[5 = sex scene 1]
+[6 = sex scene 2]
+[7 = sex secne 3]
+[8 = talk to him about splicing]
+[9 = splice him as wolf]
+[10 = splice him as 
+
+
+function assistant (marker, hp){
+
+ if(marker == 0){
+    if(hp == 0){
+        _root.story.text = 'You see Donovan sitting at table doing some work and decide to talk to him. Noticing you approaching Donovan drops his work and turns to greet you with a smile. "Hey Boss, whats up"\n\nYou greet him and tell him you just wanted to talk to him for a bit.\n\n"Sure thing boss." He says cheerfully. "So what did you want to know?" 
+        _root.buttons.gotoAndStop()
+    }
+    else if(hp ==1){
+        _root.story.text = 'You see Dona sitting at table doing some work and decide to talk to her. Noticing you approaching Dona drops her work and turns to greet you with a pretty smile. "Hey Boss, whats up"\n\nYou greet her and tell her you just wanted to talk to her for a bit.\n\n"Sure thing boss." She says cheerfully. "So what did you want to know?" 
+
+  }
+
+}
